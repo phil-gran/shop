@@ -1,0 +1,52 @@
+:root{
+    --colorYellow: rgb(247,247,73);
+    --colorYellow2: rgb(255, 246, 189);
+}
+
+body::before {
+    display: block;
+    content: '';
+    height: 50px;
+}
+
+#map{
+    width: 600;
+    height: 250;
+}
+
+#nav{
+    background-color: var(--colorYellow);
+    height: 40px;
+}
+
+.nav-link{
+    font-weight: bold;
+}
+
+#btnYes, #btnNo, #btnClear{
+    width: 60px;
+    font-size: x-small;
+    font-weight: bold;
+    color: white;
+}
+
+
+#btn1, #btn2, #btn3,
+#btn4, #btn5, #btn6, 
+#salary, #dialer{
+    display: none;
+}
+
+.btnBg{
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 10px;
+    background: var(--colorYellow2);
+}
+
+
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}

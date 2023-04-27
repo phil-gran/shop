@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <title>TRAINING</title>
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <meta name="description" content="content descrioption">
+    <meta name="keywords" content="SEO">
+    <meta name="author" content="name_developer">
+</head>
+
+<body>
+    <!--  navbar  -->
+    <div id="nav" class="nav navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a href="#home" class="navbar-brand"><img src="https://tinyurl.com/3j98a78y" alt="logo" width="90px"></a>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active"><a href="#home" class="nav-link" onclick="home()">HOME</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" onclick="salary()">SALARY</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link" onclick="dialer()">JustCall Dialer</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!--  SCRIPT  -->
+    <section id="home" class="p-5">
+        <div class="container">
+            <h1 class="text-center fst-italic">Welcome to ShopVidi Training</h1>
+            <div id="original" class="col-md p-5">
+                <span class="fst-italic"> 👉🏻Start calling</span><br>
+                <span class="fst-italic"> 👉🏻Always start the conversation with the feeling of excitement.</span> <br><br>
+
+                <h5>Call Script 1</h5>
+                <p>Hi! This is ___ from ShopVidi. May I speak to the store owner?<br>
+                <button id="btnYes" class="btn bg-success" onclick="btn1()">YES</button>
+                <button id="btnNo" class="btn bg-danger" onclick="btn2()">NO</button>
+                <button id="btnClear" class="btn bg-warning text-dark text-center" onclick="clearBtn()">CLEAR</button>
+                </p>
+                <div id="btn2" class="btnBg">
+                    <p>Reschedule, ask for availability. Call back date and time.</p>
+                </div>
+                <div id="btn1" class="btnBg">
+                    <p>We just want to extend our interest in doing business with you if possible.</p>
+                    <p>I'm calling from shopvidi wherein we are an online wholesale market place.I am  here to promote our website and products. By the way, may i know what your name is, i would like to address you properly.(Wow, a beautiful name)
+                    If you have access to the internet I can walk you through to sign up for free so you could see our products and their wholesale price.</p>
+                    <p>We have countless great products for beauty supply, fashion accessories, apparel, home gifts and a lot of more. Now, if you’re interested. I would love to give you some product recommendations that I know you can get the most out of your investment.</p>
+                </div>
+
+                <h5>Call Script 2</h5>
+                <p>Hi, this is ___, I’m calling from Shopvidi. We just want to extend our interest in doing business with you, if you’re open for opportunities. May I speak to the owner please?<br>
+                <button id="btnYes" class="btn bg-success" onclick="btn3()">YES</button>
+                <button id="btnNo" class="btn bg-danger" onclick="btn4()">NO</button>
+                <button id="btnClear" class="btn bg-warning text-dark text-center" onclick="clearBtn()">CLEAR</button>
+                </p>
+                <div id="btn4" class="btnBg">
+                    <p>Reschedule, ask for availability. Call back date and time.</p>
+                </div>
+                <div id="btn3" class="btnBg">
+                    <p>Hi, we are an Online Wholesale Marketplace that has hundreds of brands and products that are fit for your business. By the way, may i know what your name is, i would like to address you properly.(Wow, a beautiful name)</p>
+                    <p>We guarantee that you can have a 50% profit margin or even more from the products that you might be interested in so I highly recommend taking a glimpse on our website to see if it works for you..</p>
+                    <p>Now, if you’re interested. I would love to give you some product recommendations that I know you can get the most out of your investment.</p>
+                </div>
+
+                <h5>Call Script 3</h5>
+                <p>Hi, this is ___, I’m calling from Shopvidi. We just want to extend our interest in doing business with you, if you’re open for opportunities. May I speak to the owner please?<br>
+                <button id="btnYes" class="btn bg-success" onclick="btn5()">YES</button>
+                <button id="btnNo" class="btn bg-danger" onclick="btn6()">NO</button>
+                <button id="btnClear" class="btn bg-warning text-dark text-center" onclick="clearBtn()">CLEAR</button>
+                </p>
+                <div id="btn6" class="btnBg">
+                    <p>Reschedule, ask for availability. Call back date and time.</p>
+                </div>
+                <div id="btn5" class="btnBg">
+                    <p>Hi! This is ___ from ShopVidi.com, we are an online wholesale market place. We have countless great products for beauty supply, fashion accessories, apparel, jewelries, home gifts and a lot  more.</p>
+                    <p>If you have by any chance have a computer infront of you right now so you can check out our website and i would gladly guide you through on how you can sign up for free, no commitment at all so you can see our products that we can offer for your business. </p>
+                    <p>I believe you have a _______ (store), cause we have products that i believe you might be interested in for a whole sale price . in order for you to be able to check the wholesale price, you would need to sign up.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="salary">
+        <div class="container p-5">
+            <h1 class="text-center fst-italic">Your Compensation</h1>
+            <center>
+                <img src="img/salary.png" alt="salary" width="600px" class="py-4">
+            </center>
+           
+
+            <ul>
+                <li>👉🏻 <span class="fw-bold">1-2 weeks trial period</span>, if you can’t meet our requirements, you need to leave this job.</li>
+                <li>👉🏻 Make at least <span class="fw-bold">220 calls a day</span>（Full time. For example, if you have only 110 calls a day, I will calculate your working hours as 110/28=3.92h. If it is just a waste of time without any effective communication with customers, the basic  salary will also be docked. </li>
+                <li>👉🏻 Make sure you can give more useful information from customers and have a good positive attitude towords your job, if you don’t have a positive attitude, and not doing well, you need to leave this job.</li>
+                <li>👉🏻 If you need to take a day off, let us know one day in advance.</li>
+                <li>👉🏻 Full time working time <span class="fw-bold">11pm- 7am next day</span>, but you can also start one hour earlier and end one hour earlier.</li>
+                <li>👉🏻  The salary is settled based on the actual working hours. 10 minutes break every 2 hours . If there is a one-hour break during the working time, or power went out, if you cannot work due to some reasons, you will not be paid for that.</li>
+                <li>👉🏻 We will have regular training meetings, make sure to join the meetings on time.</li>
+                <li>👉🏻 Not allowed to be absent for a long time(More than 3 days). </li>
+                <li>👉🏻 You will get your payment <span class="fw-bold">bi-weekly</span>, salary is paid twice a month. Mid-month and end-of-month.(1-15,16-31), Advance payment is not accepted. But you will get payment 5 days late(All the agents' salaries need to be calculated and confirmed by the leader, and finance staff need time to issue). We have many agents. So all the salary will be paid on a fixed date. </li>
+                <li>👉🏻 Payment method is <span class="fw-bold">Paypal</span>.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="dialer">
+        <div class="container">
+            <h1 class="text-center fst-italic py-3">How to make call with JustCall Dialer</h1>
+            <center>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/v7U9EqzUCOU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </center>
+
+            <p class="text-center p-5">Download JustCall Dialer Desktop App here:
+                <a href="https://justcall.io/product/desktop-app/" target="_blank">https://justcall.io/product/desktop-app/</a>
+            </p>
+        </div>
+    </section>
+
+
+    <!--  Footer  -->
+    <footer class="py-3 bg-dark text-white text-center position-relative">
+        <div class="container">
+            <p>Vidi in Latin means foresight. ShopVidi is an All-in-one shop for thousands of unique products with great buys from worldwide.</p>
+        </div>
+
+        <div class="container">
+            <a class="bi bi-facebook text-primary h3" href="https://www.facebook.com/ShopVidiHome/" target="_blank"></a>
+            <a class="bi bi-globe-americas text-success h3" href="https://www.shopvidi.com/" target="_blank"></a>
+            <a href="#" class="position-absolute p-5 bottom-0 end-0">
+                <i class=".bi bi-arrow-up-circle h1"></i>
+            </a>
+        </div>
+        <div>
+            <p>Developed by Phil Grana</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
