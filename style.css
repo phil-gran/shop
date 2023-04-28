@@ -23,6 +23,12 @@ body::before {
     font-weight: bold;
 }
 
+#home a{
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+}
+
 #btnYes, #btnNo, #btnClear{
     width: 60px;
     font-size: x-small;
@@ -30,10 +36,12 @@ body::before {
     color: white;
 }
 
-
 #btn1, #btn2, #btn3,
 #btn4, #btn5, #btn6, 
-#salary, #dialer{
+#salary, #tools, #script,
+#warehouse, #product, #ourCustomers,
+#yourRole, #agentTools, #howToOrder,
+#howToRegister{
     display: none;
 }
 
@@ -44,6 +52,10 @@ body::before {
     background: var(--colorYellow2);
 }
 
+.scroll{
+    overflow: scroll;
+    height: 500px;
+}
 
 @media(min-width: 768px){
     .news-input{
